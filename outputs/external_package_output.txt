@@ -1,0 +1,4 @@
+
+Colorama is working!
+This message is yellow.
+This message is bright cyan.
