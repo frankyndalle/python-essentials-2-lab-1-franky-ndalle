@@ -1,4 +1,3 @@
-
 # Python Essentials 2 — Lab 1
 ## Modules, Packages, and PIP
 
@@ -8,7 +7,7 @@
 
 File: `builtin_usage.py`
 
-This program uses the `math`, `random`, `platform`, and `sys` modules to generate a random number, calculate and round down its square root, identify the operating system, and display the Python version.
+This program uses the `math`, `random`, and `platform` modules to generate a random integer between 1 and 100, calculate and round down its square root, identify the operating system, and display the Python version.
 
 ## Task 2: Creating a Package
 
@@ -43,7 +42,11 @@ python use_utilities.py
 python external_package.py
 ```
 
+## Example Outputs
+
+The `outputs` folder contains text output evidence for all three programs.
+
 ## Requirements
 
 - Python 3
-- Colorama (see `requirements.txt`)
+- Colorama (listed in `requirements.txt`)

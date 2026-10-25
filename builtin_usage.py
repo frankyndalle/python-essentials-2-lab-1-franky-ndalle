@@ -2,13 +2,20 @@
 import math
 import random
 import platform
-import sys
 
+# Generate a random integer between 1 and 100.
 number = random.randint(1, 100)
+
+# Calculate the square root and round it down.
 square_root = math.sqrt(number)
 rounded_square_root = math.floor(square_root)
 
-print("Random number:", number)
-print("Square root rounded down:", rounded_square_root)
-print("Operating system:", platform.system())
-print("Python version:", sys.version)
+# Get system information using the platform module.
+operating_system = platform.system()
+python_version = platform.python_version()
+
+# Display the results with descriptive labels.
+print("Random Number:", number)
+print("Square Root (floored):", rounded_square_root)
+print("Operating System:", operating_system)
+print("Python Version:", python_version)

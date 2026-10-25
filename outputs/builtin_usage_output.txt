@@ -1,5 +1,4 @@
-
-Random number: 99
-Square root rounded down: 9
-Operating system: Windows
-Python version: 3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]
+Random Number: 57
+Square Root (floored): 7
+Operating System: Windows
+Python Version: 3.14.7
